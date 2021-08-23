@@ -62,7 +62,7 @@ class SignInPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 SignInButton(
-                  text: 'Sign in as employ ',
+                  text: 'Sign in as employee ',
                   textColor: Colors.black,
                   color: Theme.of(context).primaryColor,
                   onPressed: () => _signInWithEmail(context),
